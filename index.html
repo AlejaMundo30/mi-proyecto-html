@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+  <html lang="es">
+  <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Mi Proyecto HTML</title>
+      <style>
+          * {
+              margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+}
+
+        body {
+                      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 20px;
+}
+
+        .container {
+                      background: white;
+            border-radius: 10px;
+            box-shadow: 0 10px 40px rgba(0, 0, 0, 0.2);
+            padding: 40px;
+            max-width: 600px;
+            width: 100%;
+            text-align: center;
+}
+
+        h1 {
+                      color: #333;
+            margin-bottom: 20px;
+            font-size: 2.5em;
+}
+
+        p {
+                      color: #666;
+            line-height: 1.6;
+            margin-bottom: 20px;
+            font-size: 1.1em;
+}
+
+        .button {
+                      display: inline-block;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 12px 30px;
+            border-radius: 5px;
+            text-decoration: none;
+            font-weight: bold;
+            transition: transform 0.3s ease;
+            margin: 10px;
+        }
+
+        .button:hover {
+                      transform: scale(1.05);
+}
+
+        .features {
+            margin-top: 30px;
+            text-align: left;
+        }
+
+        .features li {
+                      list-style: none;
+            padding: 10px 0;
+            color: #666;
+        }
+
+        .features li:before {
+                      content: "✓ ";
+            color: #667eea;
+            font-weight: bold;
+            margin-right: 10px;
+}
+    </style>
+      </head>
+      <body>
+          <div class="container">
+              <h1>¡Bienvenido!</h1>
+              <p>Este es tu proyecto HTML alojado en GitHub Pages</p>
+
+        <ul class="features">
+            <li>Proyecto completamente personalizable</li>
+            <li>Alojado de forma gratuita en GitHub Pages</li>
+            <li>Fácil de compartir con un enlace</li>
+            <li>Actualizable directamente desde GitHub</li>
+        </ul>
+
+        <p style="margin-top: 30px; color: #999; font-size: 0.9em;">
+            ¿Necesitas ayuda? Consulta la documentación en el repositorio
+        </p>
+    </div>
+</body>
+</html>
